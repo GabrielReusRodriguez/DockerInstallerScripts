@@ -41,7 +41,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 #Creamos el grupo docker
 sudo groupadd docker
 sudo usermod -aG docker ${USER}
-su -s ${USER}
+#su -s ${USER}
 
 #Verificamos la instalacion con una imagen helloworld
  sudo docker run hello-world 
